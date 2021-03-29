@@ -4,13 +4,13 @@ tatatin
 
 ## Índex
 
-* [Paper1](#paper1)
+* [Automatic Playlist continuation using a hybrid recommender system combining features from text and audio](#Automatic Playlist continuation using a hybrid recommender system combining features from text and audio)
   * [Paper1_2](#paper1_2)
   * [Paper1_3](#paper1_3)
 
 ## Resums
 
-### Paper1
+### Automatic Playlist continuation using a hybrid recommender system combining features from text and audio
 fdsfds
 > Una frase que quedarà en un quadro
 ### Paper1_2
