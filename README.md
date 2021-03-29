@@ -12,6 +12,7 @@ tatatin
 
 ### Paper1
 fdsfds
+> Una frase que quedarà en un quadro
 ### Paper1_2
 fdsfd
 
