@@ -4,8 +4,8 @@ tatatin
 
 ## Índex
 
-* [Automatic playlist continuation using a hybrid recommender system combining features from text and audio (Ferraro19).
-](#automatic-playlist-continuation-using-a-hybrid-recommender-system-combining-features-from-text-and-audio-(Ferraro19))
+* [Automatic playlist continuation using a hybrid recommender system combining features from text and audio, Ferraro19.
+](#automatic-playlist-continuation-using-a-hybrid-recommender-system-combining-features-from-text-and-audio,-Ferraro19)
   * [Paper1_2](#paper1_2)
   * [Paper1_3](#paper1_3)
 
