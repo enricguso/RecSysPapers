@@ -12,9 +12,9 @@ A summary of the most recent papers from the [@mtg-upf](https://github.com/MTG) 
   * [Artist and style exposure bias in collaborative filtering based music recommendations](#artist-and-style-exposure-bias-in-collaborative-filtering-based-music-recommendations)
   * [Exploring Longitudinal Effects of Session-based Recommendations](#exploring-longitudinal-effects-of-session-based-recommendations)
   * [Melon Playlist Dataset, a public dataset for audio-based playlist generation and music tagging](#melon-playlist-dataset-a-public-dataset-for-audio-based-playlist-generation-and-music-tagging)
-  * [Enriched Music Representations with Multiple Cross modal Contrastive Learning](enriched-music-representations-with-multiple-cross-modal-contrastive-learning)
+  * [Enriched Music Representations with Multiple Cross modal Contrastive Learning](#enriched-music-representations-with-multiple-cross-modal-contrastive-learning)
 * Schedl et al.:
-  * [Music Recommendation Systems, Techniques, use cases and challenges](music-recommendation-systems,-techniques,-use-cases-and-challenges)
+  * [Music Recommendation Systems, Techniques, use cases and challenges](#music-recommendation-systems,-techniques,-use-cases-and-challenges)
 ## Summaries
 
 ### Andres Ferraro et al.:
