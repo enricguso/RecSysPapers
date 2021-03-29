@@ -12,8 +12,7 @@ tatatin
 
 ## Resums
 
-### Ferraro_Jan2019
-#### Automatic playlist continuation using a hybrid recommender system combining features from text and audio
+### Automatic playlist continuation using a hybrid recommender system combining features from text and audio
 fdsfds
 > Una frase que quedarà en un quadro
 ### Paper1_2
