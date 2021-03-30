@@ -1,6 +1,6 @@
 # RecSysPapers
 
-A summary of the most recent papers from the [@mtg-upf](https://github.com/MTG) on music recommender systems.
+A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, mainly on music recommender systems.
 
 ## Papers:
 
