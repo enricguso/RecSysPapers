@@ -15,6 +15,11 @@ A summary of the most recent papers from the [@mtg-upf](https://github.com/MTG) 
   * [Enriched Music Representations with Multiple Cross modal Contrastive Learning](#enriched-music-representations-with-multiple-cross-modal-contrastive-learning)
 * Schedl et al.:
   * [Music Recommendation Systems Techniques Use cases and Challenges](#music-recommendation-systems-techniques-use-cases-and-challenges)
+* Blogs:
+  * [ALS Implicit Collaborative Filtering](#als-implicit-collaborative-filtering)
+  * [Distance Metrics for Fun and Profit](#distance-metrics-for-fun-and-profit)
+  * [Genre Essentials](#genre-essentials)
+  * [Evaluating recommender systems](#evaluating-recommender-systems)
 ## Summaries
 
 ### Andres Ferraro et al.:
@@ -68,4 +73,16 @@ CHALLENGES
 - How to consider user intrinsic data in cold start? Use data from elsewhere.
 - How to make them fair?
 - How to explain them? (BAndits for Recsplanations as Treatments by Spotify)
-- How to evaluate?
+- How to evaluate? High accuracy != user satisfaction. Existing datasets don't cover familiarity with items. In industrial settings: online evaluation with A/B testing. Dmitry combines liking, familiarity, listening intention and "give-me-more" into trusts, hits and fails.
+- How to deal with missing and negative feedback in evaluation? Using meta-data from the same user-artist, for example.
+- How to design UX that match the use case and increase experience? Different personalities prefer different organization principles.
+
+## Blogs
+### ALS Implicit Collaborative Filtering
+[Link here.](https://medium.com/radon-dev/als-implicit-collaborative-filtering-5ed653ba39fe)
+### Distance Metrics for Fun and Profit
+[Link here.](https://www.benfrederickson.com/distance-metrics/)
+### Genre Essentials
+[Link here.](https://towardsdatascience.com/genre-essentials-building-an-album-recommender-system-c89c308d16f0)
+### Evaluating recommender systems
+[Link here.](http://fastml.com/evaluating-recommender-systems/)
