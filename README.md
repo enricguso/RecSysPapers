@@ -2,8 +2,9 @@
 
 A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, mainly on music recommender systems.
 
-## Papers:
-
+## List of readings
+* Schedl et al.:
+  * [Music Recommendation Systems Techniques Use cases and Challenges](#music-recommendation-systems-techniques-use-cases-and-challenges)
 * Andres Ferraro et al.:
   * [Automatic playlist continuation using a hybrid recommender system combining features from text and audio
 ](#automatic-playlist-continuation-using-a-hybrid-recommender-system-combining-features-from-text-and-audio)
@@ -13,39 +14,14 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
   * [Exploring Longitudinal Effects of Session-based Recommendations](#exploring-longitudinal-effects-of-session-based-recommendations)
   * [Melon Playlist Dataset, a public dataset for audio-based playlist generation and music tagging](#melon-playlist-dataset-a-public-dataset-for-audio-based-playlist-generation-and-music-tagging)
   * [Enriched Music Representations with Multiple Cross modal Contrastive Learning](#enriched-music-representations-with-multiple-cross-modal-contrastive-learning)
-* Schedl et al.:
-  * [Music Recommendation Systems Techniques Use cases and Challenges](#music-recommendation-systems-techniques-use-cases-and-challenges)
+
 * Blogs:
   * [ALS Implicit Collaborative Filtering](#als-implicit-collaborative-filtering)
   * [Distance Metrics for Fun and Profit](#distance-metrics-for-fun-and-profit)
   * [Genre Essentials](#genre-essentials)
   * [Evaluating recommender systems](#evaluating-recommender-systems)
+  
 ## Summaries
-
-### Andres Ferraro et al.:
-#### Automatic playlist continuation using a hybrid recommender system combining features from text and audio
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-
-
-### Using offline metrics and user behavior analysis to combine multiple systems for music recommendation
-fdsfd
-
-### Skip prediction using boosting trees based on acoustic features of tracks in sessions
-fsddfsf
-
-### Artist and style exposure bias in collaborative filtering based music recommendations
-fdsfdsfd
-
-### Exploring Longitudinal Effects of Session-based Recommendations
-fdsfdsf
-
-### Melon Playlist Dataset, a public dataset for audio-based playlist generation and music tagging
-fdsfd
-
-### Enriched Music Representations with Multiple Cross modal Contrastive Learning
-fdsfd
-
 ## Schedl et al.;
 ### Music Recommendation Systems Techniques Use cases and Challenges
 [Link here](https://www.researchgate.net/journal/International-Journal-of-Multimedia-Information-Retrieval-2192-662X/publication/320296777_Current_Challenges_and_Visions_in_Music_Recommender_Systems_Research/links/5fc46def299bf104cf942321/Current-Challenges-and-Visions-in-Music-Recommender-Systems-Research.pdf)
@@ -76,6 +52,30 @@ CHALLENGES
 - How to evaluate? High accuracy != user satisfaction. Existing datasets don't cover familiarity with items. In industrial settings: online evaluation with A/B testing. Dmitry combines liking, familiarity, listening intention and "give-me-more" into trusts, hits and fails.
 - How to deal with missing and negative feedback in evaluation? Using meta-data from the same user-artist, for example.
 - How to design UX that match the use case and increase experience? Different personalities prefer different organization principles.
+
+### Andres Ferraro et al.:
+#### Automatic playlist continuation using a hybrid recommender system combining features from text and audio
+Andres describes his RecSys18 systems. Treats playlists as tracks, and makes a tracks-playlists matrix. Collaborative filtering + metadata (with Essentia-genre + normalized playlist titles). Methods are Matrix Factorization model and Track proximity model, then combines them.
+
+### Using offline metrics and user behavior analysis to combine multiple systems for music recommendation
+fdsfd
+
+### Skip prediction using boosting trees based on acoustic features of tracks in sessions
+fsddfsf
+
+### Artist and style exposure bias in collaborative filtering based music recommendations
+fdsfdsfd
+
+### Exploring Longitudinal Effects of Session-based Recommendations
+fdsfdsf
+
+### Melon Playlist Dataset, a public dataset for audio-based playlist generation and music tagging
+fdsfd
+
+### Enriched Music Representations with Multiple Cross modal Contrastive Learning
+fdsfd
+
+
 
 ## Blogs
 ### ALS Implicit Collaborative Filtering
