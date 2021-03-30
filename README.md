@@ -58,10 +58,16 @@ USE CASES:
 TYPES OF MUSIC RECOMMENDER SYSTEMS
 
 - COLLABORATIVE FILTERING: solely on user-item interactions data. Has community bias, popularity bias ([long-tail property of consumption behavior](https://www.youtube.com/watch?v=0Yku0GTrcuw)).
-- CONTENT-BASED FILTERING: extract with NNs or with crafted features. van den Oord's paper => CNN to predict user-item latent factors from matrix factorization of collaborative filtering data, then we can compute distance from audio-only to profile. Also profile latent sapces by averaging all tracks in a profile. 
-- HYBRID APPROACH: 
-- CONTEXT-AWARE
-- SEQUENTIAL
-- PSYCHOLOGY-INSPIRED
+- CONTENT-BASED FILTERING: extract with NNs or with crafted features. [van den Oord's paper](https://proceedings.neurips.cc/paper/2013/file/b3ba8f1bee1238a2f37603d90b58898d-Paper.pdf) => CNN to predict user-item latent factors from matrix factorization of collaborative filtering data, then we can compute distance from audio-only to profile. Also profile latent sapces by averaging all tracks in a profile. 
+- HYBRID APPROACH: or uses several data sources, or several recommendation techniques. Oramas approach, which uses biographies.
+- CONTEXT-AWARE: contextual pre-filtering => only the  portion  of the data that fits the user context is chosen. contextual post-filtering => first we recommend, then we adjust conditioned on context. We can also extend latent factor models by contextual dimensions (concat or gating).
+- SEQUENTIAL: use CNN + RNN.
+- PSYCHOLOGY-INSPIRED: consider frequency of exposure and recentness of exposure, and integrates in ACT-R (adaptive control of thought-rational) psychologic model. Use personality for expanding the latent factor.
 
 CHALLENGES
+
+- Objectives: match user's preferences, be similar to the user's preferred tracks but at the same time diverse (not boring), familiar and novel ("even for users that prefer novel music, familiarity is a positive predictor), trendy/popular (for mitigating cold start users), be coherent.
+- How to consider user intrinsic data in cold start? Use data from elsewhere.
+- How to make them fair?
+- How to explain them? (BAndits for Recsplanations as Treatments by Spotify)
+- How to evaluate?
