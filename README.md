@@ -22,8 +22,9 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
   * [Evaluating recommender systems](#evaluating-recommender-systems)
   
 ## Summaries
-## Schedl et al.;
-### Music Recommendation Systems Techniques Use cases and Challenges
+
+### Schedl et al.;
+#### Music Recommendation Systems Techniques Use cases and Challenges
 [Link here](https://www.researchgate.net/journal/International-Journal-of-Multimedia-Information-Retrieval-2192-662X/publication/320296777_Current_Challenges_and_Visions_in_Music_Recommender_Systems_Research/links/5fc46def299bf104cf942321/Current-Challenges-and-Visions-in-Music-Recommender-Systems-Research.pdf), which links to [this](https://www.youtube.com/watch?v=9gBC9R-msAk) video about LightFM library and [this](https://www.youtube.com/watch?v=ZspR5PZemcs) to the method description.
 Intro: granulation (what do we recommend? artists? albums? songs?). Repetition might be desirable. Automatic playlist continuation or Next-track recommendation. Not skipping does  not imply preference (might not be listening). Collaborative Filtering (Netflix Prize) vs. Content-Based Filtering (MIR).
 
