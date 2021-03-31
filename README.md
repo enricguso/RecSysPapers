@@ -24,7 +24,7 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
 ## Summaries
 ## Schedl et al.;
 ### Music Recommendation Systems Techniques Use cases and Challenges
-[Link here](https://www.researchgate.net/journal/International-Journal-of-Multimedia-Information-Retrieval-2192-662X/publication/320296777_Current_Challenges_and_Visions_in_Music_Recommender_Systems_Research/links/5fc46def299bf104cf942321/Current-Challenges-and-Visions-in-Music-Recommender-Systems-Research.pdf)
+[Link here](https://www.researchgate.net/journal/International-Journal-of-Multimedia-Information-Retrieval-2192-662X/publication/320296777_Current_Challenges_and_Visions_in_Music_Recommender_Systems_Research/links/5fc46def299bf104cf942321/Current-Challenges-and-Visions-in-Music-Recommender-Systems-Research.pdf), which links to [this](https://www.youtube.com/watch?v=9gBC9R-msAk) video about LightFM library and [this](https://www.youtube.com/watch?v=ZspR5PZemcs) to the method description.
 Intro: granulation (what do we recommend? artists? albums? songs?). Repetition might be desirable. Automatic playlist continuation or Next-track recommendation. Not skipping does  not imply preference (might not be listening). Collaborative Filtering (Netflix Prize) vs. Content-Based Filtering (MIR).
 
 USE CASES:
@@ -37,7 +37,7 @@ USE CASES:
 TYPES OF MUSIC RECOMMENDER SYSTEMS
 
 - COLLABORATIVE FILTERING: solely on user-item interactions data. Has community bias, popularity bias ([long-tail property of consumption behavior](https://www.youtube.com/watch?v=0Yku0GTrcuw)).
-- CONTENT-BASED FILTERING: extract with NNs or with crafted features. [van den Oord's paper](https://proceedings.neurips.cc/paper/2013/file/b3ba8f1bee1238a2f37603d90b58898d-Paper.pdf) => CNN to predict user-item latent factors from matrix factorization of collaborative filtering data, then we can compute distance from audio-only to profile. Also profile latent sapces by averaging all tracks in a profile. 
+- CONTENT-BASED FILTERING: on user-item ratings, find similar items with features or DNNS->[van den Oord's paper](https://proceedings.neurips.cc/paper/2013/file/b3ba8f1bee1238a2f37603d90b58898d-Paper.pdf) => CNN to predict user-item latent factors from matrix factorization of collaborative filtering data, then we can compute distance from audio-only to profile. Also profile latent sapces by averaging all tracks in a profile. 
 - HYBRID APPROACH: or uses several data sources, or several recommendation techniques. Oramas approach, which uses biographies.
 - CONTEXT-AWARE: contextual pre-filtering => only the  portion  of the data that fits the user context is chosen. contextual post-filtering => first we recommend, then we adjust conditioned on context. We can also extend latent factor models by contextual dimensions (concat or gating).
 - SEQUENTIAL: use CNN + RNN.
@@ -55,7 +55,9 @@ CHALLENGES
 
 ### Andres Ferraro et al.:
 #### Automatic playlist continuation using a hybrid recommender system combining features from text and audio
-Andres describes his RecSys18 systems. Treats playlists as tracks, and makes a tracks-playlists matrix. Collaborative filtering + metadata (with Essentia-genre + normalized playlist titles). Methods are Matrix Factorization model and Track proximity model, then combines them.
+Andres describes his RecSys18 systems. Treats playlists as tracks, and makes a tracks-playlists matrix. Collaborative filtering + metadata (with Essentia-genre + normalized playlist titles). Methods are Matrix Factorization model and Track proximity model, then combines them. Matrix Factorization from [this](https://arxiv.org/pdf/1507.08439.pdf) paper: matrix humans-movies (values are ratings) 
+
+------------------------------------------------------------------------------------------------------------
 
 ### Using offline metrics and user behavior analysis to combine multiple systems for music recommendation
 fdsfd
