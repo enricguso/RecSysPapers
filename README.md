@@ -62,10 +62,10 @@ Andres describes his RecSys18 systems. Treats playlists as tracks, and makes a t
 ------------------------------------------------------------------------------------------------------------
 
 ### Using offline metrics and user behavior analysis to combine multiple systems for music recommendation
-fdsfd
+*Implicit* python library. As systems work differently for each user, the idea is to select a sub-group of recommenders for each user by predictiong the error for each one. Introduces Melon data, with a high popularity bias (K-pop predominates). TODO: understand Average percentile-rank and NDCG. NDCG@500 seems to be the best loss.
 
 ### Skip prediction using boosting trees based on acoustic features of tracks in sessions
-fsddfsf
+XGBoost's turn. 14th of 600 in the Spotify Sequential Skip Prediction Challenge.
 
 ### Artist and style exposure bias in collaborative filtering based music recommendations
 fdsfdsfd
