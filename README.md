@@ -86,6 +86,7 @@ They align:
 - playlist-track interactions
 - genre metadata
 - track audio
+
 The trick is in the alignment (TODO).
 Introduces Kakao Arena evaluation platform. GTZAN
 Future work is to include playlist-level information.
