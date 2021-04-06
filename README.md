@@ -21,6 +21,7 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
   * [Genre Essentials](#genre-essentials)
   * [Evaluating recommender systems](#evaluating-recommender-systems)
   * [Oriol Nieto's Best of RecSys'20](#oriol-nietos-best-of-recsys20)
+  * [Recsys'20 tutorials](#recsys20-tutorials)
   
 ## Summaries
 
