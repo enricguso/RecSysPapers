@@ -20,6 +20,7 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
   * [Distance Metrics for Fun and Profit](#distance-metrics-for-fun-and-profit)
   * [Genre Essentials](#genre-essentials)
   * [Evaluating recommender systems](#evaluating-recommender-systems)
+  * [Oriol Nieto's Best of RecSys'20](#oriol-nietos-best-of-recsys20)
   
 ## Summaries
 
