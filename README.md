@@ -81,6 +81,7 @@ Melon Playlist -> 5M track-playlist relations
 Contrastive learning: maximize similarity between embeddings of audio and augmented audio.
 Cross-modal contrastive learning:
 > Learn an audio feature from heterogeneous data simultaneously.
+
 They align:
 - playlist-track interactions
 - genre metadata
