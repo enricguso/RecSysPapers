@@ -78,8 +78,16 @@ Melon Music -> 20 to 50s Mel Spectrograms
 Melon Playlist -> 5M track-playlist relations
 
 ### Enriched Music Representations with Multiple Cross modal Contrastive Learning
-fdsfd
-
+Contrastive learning: maximize similarity between embeddings of audio and augmented audio.
+Cross-modal contrastive learning:
+> Learn an audio feature from heterogeneous data simultaneously.
+They align:
+- playlist-track interactions
+- genre metadata
+- track audio
+The trick is in the alignment (TODO).
+Introduces Kakao Arena evaluation platform. GTZAN
+Future work is to include playlist-level information.
 
 
 ## Blogs
