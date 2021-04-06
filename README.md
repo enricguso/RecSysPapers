@@ -68,13 +68,14 @@ Andres describes his RecSys18 systems. Treats playlists as tracks, and makes a t
 XGBoost's turn. 14th of 600 in the Spotify Sequential Skip Prediction Challenge.
 
 ### Artist and style exposure bias in collaborative filtering based music recommendations
-fdsfdsfd
+Collaborative filtering in the long term reinforces popularity of items. Reesults suggest that a better evaluation methodology is needed, not only limited to user-focused relevance metrics.
 
 ### Exploring Longitudinal Effects of Session-based Recommendations
-fdsfdsf
+Here they show how recommenders pick smaller and smaller sub-groups of songs in the long term. Recommenders keep recommending more and more similar tracks. They mitigate this by a re-ranking method.
 
 ### Melon Playlist Dataset, a public dataset for audio-based playlist generation and music tagging
-fdsfd
+Melon Music -> 20 to 50s Mel Spectrograms
+Melon Playlist -> 5M track-playlist relations
 
 ### Enriched Music Representations with Multiple Cross modal Contrastive Learning
 fdsfd
