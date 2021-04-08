@@ -3,6 +3,8 @@
 A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, mainly on music recommender systems.
 
 ## List of readings
+* Lee, Jongpil et al.:
+  * [Disentangled Multidimensional Metric Learning for Music Similarity](#disentangled-multidimensional-metric-learning-for-music-similarity) 
 * Schedl et al.:
   * [Music Recommendation Systems Techniques Use cases and Challenges](#music-recommendation-systems-techniques-use-cases-and-challenges)
 * Andres Ferraro et al.:
@@ -24,6 +26,10 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
   * [Recsys'20 tutorials](#recsys20-tutorials)
   
 ## Summaries
+### Lee, Jongpil et al.:
+#### Disentangled Multidimensional Metric Learning for Music Similarity
+
+
 
 ### Schedl et al.;
 #### Music Recommendation Systems Techniques Use cases and Challenges
