@@ -28,6 +28,9 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
 ## Summaries
 ### Lee, Jongpil et al.:
 #### Disentangled Multidimensional Metric Learning for Music Similarity
+Similarity depends on genre, mood, instrument, tempo... Single multidimensional model that covers all performs better than specialized models.
+Each dimension is bound to a specific part of the embedding -> later we can weight each kind of similarity before the distance is computed.
+TODO: understand how the triplets are selected -> take a look to the code.
 
 
 
