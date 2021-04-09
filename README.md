@@ -30,9 +30,9 @@ A summary of papers from the [@mtg-upf](https://github.com/MTG) and others, main
 #### Disentangled Multidimensional Metric Learning for Music Similarity
 Similarity depends on genre, mood, instrument, tempo... Single multidimensional model that covers all performs better than specialized models.
 Each dimension is bound to a specific part of the embedding -> later we can weight each kind of similarity before the distance is computed.
-TODO: understand how the triplets are selected -> take a look to the code.
-
-
+Deep metric learning -> triplet loss. Seems to make a learning step (and therefore builds a triplet) for each dimension, masking the rest of the embedding (check code).
+Proposes track regularization: Now without masking, anchor and Positive is from the same song, and negative is sampled from a different song. This can be weighted to control specificity. How do we select the negative? (We might skip this)
+Works on DIM-SIM dataset.
 
 ### Schedl et al.;
 #### Music Recommendation Systems Techniques Use cases and Challenges
