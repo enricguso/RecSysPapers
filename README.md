@@ -111,7 +111,7 @@ Future work is to include playlist-level information.
 ### Genre Essentials
 [Link here.](https://towardsdatascience.com/genre-essentials-building-an-album-recommender-system-c89c308d16f0)
 ### Evaluating recommender systems
-[Link here.](http://fastml.com/evaluating-recommender-systems/)
+[Link here.](http://fastml.com/evaluating-recommender-systems/) How to validate a recommender system? NDCG is MAP (whose interest concept is binary) with scores.
 ### Oriol Nieto's Best of RecSys'20
 [Link here.](https://www.urinieto.com/2020/09/recsys2020/)
 ### Recsys'20 tutorials
